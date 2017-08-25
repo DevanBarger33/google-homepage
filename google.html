@@ -2,11 +2,15 @@
 <html>
 <head>
 	<title>Google homepage</title>
-	<style type="text/css" src="styleSheets/google.css"></style>
+	<link rel="stylesheet" href="styleSheets/google.css">
 
 </head>
 	<body>
-		<div id="test">This is a test</div>
-		<img src="images/googlelogo.png">
+		<div id="glogo"><img src="images/googlelogo.png"></div>
+		<div id="searchbar"><input type="text" name="search"></div>
+		<div id="center">
+			<div id='searchbutton' ><button type="button" onclick="location.href = 'https://www.google.com/search?source=hp&q=hello+kitty&oq=hello+kitty&gs_l=psy-ab.3..0j0i20k1j0l2.197960.200972.0.201203.17.13.0.0.0.0.90.911.11.11.0....0...1.1.64.psy-ab..6.11.908.0..35i39k1j0i131k1j0i67k1j0i10k1.h8IHH6yBeNk';">Google Search</button></div>
+			<div id='feelingluckybutton'><button type="button" onclick="location.href = 'https://www.google.com/search?q=Lasagna&oq=Lasagna&gs_l=psy-ab.3..0i67k1j0i20k1j0i131k1j0i3k1.56795.59117.0.59341.7.7.0.0.0.0.90.536.7.7.0....0...1.1.64.psy-ab..0.7.534...0j35i39k1.S50KzYPApj8';">I'm Feeling Hungry</button></div>
+		</div>
 	</body>
 </html>
